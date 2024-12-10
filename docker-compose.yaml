@@ -1,0 +1,6 @@
+services:
+  shows:
+    build: .
+    container_name: shows
+    ports:
+      - "8080:8080"
